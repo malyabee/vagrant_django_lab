@@ -33,7 +33,7 @@ Vagrant.configure("2") do |config|
 
          # Memory and CPU allocation
          django.vm.provider "virtualbox" do |v|
-            v.memory = 512
+            v.memory = 1024
             v.cpus = 1
          end
          # Create a forwarded port mapping which allows access to a specific port
