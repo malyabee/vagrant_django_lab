@@ -134,3 +134,7 @@ Note : <newproject> is your project name. you can choose any name
 
 ### Reference
    This Vagrant file build used "Install through pip in a Virtualenv:" method for django environment. This method is described at https://www.digitalocean.com/community/tutorials/how-to-install-the-django-web-framework-on-centos-7
+   
+   
+sqlite configuration issues:
+https://stackoverflow.com/questions/55674176/django-cant-find-new-sqlite-version-sqlite-3-8-3-or-later-is-required-found
