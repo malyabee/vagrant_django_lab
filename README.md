@@ -54,7 +54,7 @@ Install django usign pip
   
 Verify installation using 
 
-     djaongo-admin --version
+     django-admin --version
      
 to leave virtual environment  you can run dactivate command
      
