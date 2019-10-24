@@ -3,8 +3,9 @@
 
 $commonscript = <<-SCRIPT
 sudo yum update -y
-sudo yum install python2 epel-release -y
+sudo yum install python3 epel-release -y
 sudo yum install python-pip -y
+sudo yum install kernel-devel -y
 sudo pip install virtualenv 
 sudo pip install --upgrade pip
 sudo echo "LANG=en_US.utf-8" > /etc/environment

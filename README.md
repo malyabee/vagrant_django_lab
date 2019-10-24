@@ -16,19 +16,18 @@
   Step 2 :  Install vagrant  (https://www.vagrantup.com)
 
   Step 3 :  Download and  Vagrant file  
-       git clone https://github.com/malyabee/IaaC.git  
+       git clone https://github.com/malyabee/vagrant_django_lab.git 
 
   Step 4  : starting virtual machines 
 
-       $ cd IaaC/django_lab
+       $ cd vagrant_django_lab
  
        $ vagrant up
 
 
 
 ### commands to login virtual machine
-     cd IaaC/django_lab 
-
+     cd vagrant_django_lab
      vagrant ssh 
      
 
