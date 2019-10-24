@@ -71,13 +71,27 @@ Note : <newproject> is your project name. you can choose any name
 
 ### Example commands to deploy Django
 
-     mkdir  ~/django_lab/firstproject
-     cd  ~/django_lab/firstproject
-     virtualenv -p python3 denv
-     source denv/bin/activate
-     pip3 install django
-     django-admin --version
-     deactivate 
+    $ mkdir  ~/django_lab/firstproject
+    $ cd  ~/django_lab/firstproject
+    $ virtualenv -p python3 denv
+    $ source denv/bin/activate
+    (denv) $ pip3 install django
+    (denv) $ django-admin --version
+  
+     
+#### finding django version
+    (denv) [vagrant@django firstproject]$ django-admin --version
+      2.2.6
+    (denv) [vagrant@django firstproject]$ python
+     Python 3.6.8 (default, Aug  7 2019, 17:28:10) 
+     [GCC 4.8.5 20150623 (Red Hat 4.8.5-39)] on linux
+     Type "help", "copyright", "credits" or "license" for more information.
+     >>> import django
+     >>> print(django.get_version())
+      2.2.6
+      >>> 
+     (denv) [vagrant@django firstproject]$ python -m django --version
+       2.2.6
      
 ### Creating Simple project 
 
