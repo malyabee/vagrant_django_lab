@@ -4,7 +4,7 @@
 $commonscript = <<-SCRIPT
 sudo yum update -y
 sudo yum install python3 epel-release -y
-sudo yum install python-pip -y
+sudo yum install python-pip git tree -y
 sudo yum install kernel-devel -y
 sudo pip install virtualenv 
 sudo pip install --upgrade pip
