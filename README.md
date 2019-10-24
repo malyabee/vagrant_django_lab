@@ -40,7 +40,7 @@ Create a new project directory
 
 Now create a virtual environment with in <newprojcet> directory
  
-    virtualenv <newenv>
+    virtualenv -p <pythonversion> <newenv>
     
  
 To install pacakages into the isolated environment, you must activate it with following command
@@ -73,9 +73,9 @@ Note : <newproject> is your project name. you can choose any name
 
      mkdir  ~/django_lab/firstproject
      cd  ~/django_lab/firstproject
-     virtualenv denv
+     virtualenv -p python3 denv
      source denv/bin/activate
-     pip install django
+     pip3 install django
      django-admin --version
      deactivate 
      
